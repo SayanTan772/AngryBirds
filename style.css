@@ -1,0 +1,40 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    background-color:#1E1E1E;
+}
+
+.red{
+    width:500px;
+}
+
+#eyes{
+    transition:all 0.1s cubic-bezier(0,.62,1,.6);
+}
+
+#eyes .eye:nth-child(1){
+    width:30px;
+    height:30px;
+    position:absolute;
+    left:742px;
+    top:373px;
+}
+
+#eyes .eye:nth-child(2){
+    width:30px;
+    height:30px;
+    position:absolute;
+    right:668px;
+    top:373px;
+}
