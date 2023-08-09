@@ -27,14 +27,14 @@ body{
     width:30px;
     height:30px;
     position:absolute;
-    left:742px;
-    top:373px;
+    left:760px;
+    top:340px;
 }
 
 #eyes .eye:nth-child(2){
     width:30px;
     height:30px;
     position:absolute;
-    right:668px;
-    top:373px;
+    right:684px;
+    top:340px;
 }
